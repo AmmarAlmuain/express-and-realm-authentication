@@ -1,5 +1,5 @@
 import Realm from "realm";
 
-const appId = "application-0-evwty";
+const appId = "<Your App ID>";
 
 export const realmApp = new Realm.App({ id: appId });
