@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const connectionString =
-  "mongodb+srv://test:test@cluster0.b5lzcl9.mongodb.net/?retryWrites=true&w=majority";
+  "<Your MongoDB Atlas Connection String>";
 
 mongoose.connect(connectionString);
 
